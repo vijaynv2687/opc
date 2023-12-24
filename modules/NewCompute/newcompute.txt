@@ -1,0 +1,14 @@
+module "newcompute" {
+  source = "./modules"
+}
+
+resource "oci_core_instance" "newcompute" {
+availability_domain = "ikZL:AP-HYDERABAD-1-AD-1"
+compartment_id = [oci_identity_compartment.VJ_P.id]
+}
+
+output "compartment-OCID1" {
+  value = oci_identity_compartment.VJ_P.id
+}
+
+

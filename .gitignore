@@ -1,0 +1,12 @@
+/.oci
+/.terraform
+/.terraform.lock.hcl
+/Outputs
+/Resources
+/compartmentoutput.txt
+/generated.txt
+/graph.dot
+/graphoci.svg
+/oci_compartment.txt
+/terraform.tfstate
+/terraform.tfstate.backup
