@@ -9,7 +9,7 @@ resource "oci_core_instance" "linux9" {
     ocpus                     = 1
   }
   source_details {
-    source_id   = "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaavnnozlfmsyjajkksdlcpuvxpjhygbmkowokdxlcktk3zdfknbx3a"
+    source_id   = "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa.........."
     source_type = "image"
   }
   display_name = "AVijayPriya123"
@@ -17,7 +17,7 @@ resource "oci_core_instance" "linux9" {
     assign_private_dns_record = true
     assign_public_ip          = true
     subnet_id                 = oci_core_subnet.test_subnet.id
-    #subnet_id = "ocid1.vcn.oc1.ap-hyderabad-1.amaaaaaa3gynwiyawriotc2spi2c5wuw74jwcjgautcehswqje4nyebfh5jq"
+    #subnet_id = "ocid1.vcn.oc1.ap-hyderabad-1.amaaaaaa............"
   }
   /*metadata = {
     ssh_authorized_keys = file(var.public_key)
