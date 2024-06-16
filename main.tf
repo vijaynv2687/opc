@@ -17,7 +17,7 @@ variable "compartment_id" {
 }*/
 variable "public_key" {
   type        = string
-  default     = "/Users/vijaynv/opc/.oci/oci_api_key_public.pem"
+  default     = "/Users/user/opc/.oci/oci_api_key_public.pem"
   description = "Path to your public key"
 }
 
