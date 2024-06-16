@@ -12,7 +12,7 @@ resource "oci_core_instance" "linux9" {
     source_id   = "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa.........."
     source_type = "image"
   }
-  display_name = "AVijayPriya123"
+  display_name = "TestInstance"
   create_vnic_details {
     assign_private_dns_record = true
     assign_public_ip          = true
